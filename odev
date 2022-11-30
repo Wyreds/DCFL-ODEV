@@ -1,0 +1,20 @@
+#Küpün Hacmini ve yüzey alanını hesaplayan Kod odev 1
+Kenar = float(input("Küpün Kenarını Giriniz: "))
+hacim = Kenar*(Kenar**2)
+YuzeyAlani =  6*(Kenar**2)
+print("Küpün Hacimi",hacim)
+print("Küpün Yuzey Alani",YuzeyAlani)
+print("Küpün Hacmi Ve Yüzey Alanı Hesaplanmıştır.")
+
+
+
+
+#Dairenin Alanını Ve Çevresini Hazırlayan Program odev 2
+YariCap= float(input(" Dairenin Yarı Çapını Giriniz " ))
+DaireAlan= 3.14*(YariCap**2)
+DaireCevre= 3.14*(YariCap*2)
+print("Dairenin Alanı",DaireAlan)
+print("Dairenin Çevresi",DaireCevre)
+print( "Dairenizin Alanı Ve Cevresi Hesaplanmıştır")
+
+
